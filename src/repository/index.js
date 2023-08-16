@@ -8,6 +8,6 @@ let server =Express();
 server.use(cors());
 server.use(Express.json());
 
-server.use(filmController)
+server.use(listarTarefas)
 
 server.listen(process.env.PORT, () => console.log(`Online em ${process.env.PORT}`));
